@@ -1,4 +1,6 @@
 $("[data-group]").each(function () {
+
+  //teste
   var $allTarget = $(this).find("[data-target]"),
     $allClick = $(this).find("[data-click]"),
     activeClass = "active";
